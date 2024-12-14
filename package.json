@@ -1,0 +1,15 @@
+{
+  "name": "serverless-image-metadata-extractor",
+  "version": "1.0.0",
+  "description": "This project demonstrates how to build a serverless application that extracts metadata from images uploaded to an Amazon S3 bucket. The Lambda function, powered by AWS Graviton, uses the `sharp` library for image processing and metadata extraction. The extracted metadata is saved back to the same S3 bucket.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1692.0",
+    "sharp": "^0.33.5"
+  }
+}
